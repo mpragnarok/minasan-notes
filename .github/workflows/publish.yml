@@ -25,11 +25,11 @@ jobs:
         with:
             version: "master"
       - name: add a nojekyll file # to make sure asset paths are correctly identified
-        run: touch $GITHUB_WORKSPACE/www/.nojekyll
+        run: touch $GITHUB_WORKSPACE/pages/.nojekyll
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.9
         with:
           branch: gh-pages # The branch the action should deploy to.
-          folder: www # The folder the action should deploy.
+          folder: pages # The folder the action should deploy.
           clean: true
           single-commit: true
