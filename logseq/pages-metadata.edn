@@ -1,6 +1,9 @@
 [{:block/name "\"how i use zettelkasten method in logseq\"",
   :block/created-at 1666411244190,
   :block/updated-at 1666411244190}
+ {:block/name "\"publish logseq automatically\"",
+  :block/created-at 1666420688328,
+  :block/updated-at 1666420688328}
  {:block/name "\"時間管理",
   :block/created-at 1666407910157,
   :block/updated-at 1666407910157}
@@ -172,6 +175,9 @@
  {:block/name "recommended-by",
   :block/created-at 1666407910156,
   :block/updated-at 1666407910156}
+ {:block/name "related::",
+  :block/created-at 1666442847862,
+  :block/updated-at 1666442847862}
  {:block/name "resources",
   :block/created-at 1666407910101,
   :block/updated-at 1666407910101}
