@@ -69,7 +69,7 @@
  ;; If `:sidebar` is not set, sidebar will be hidden
  ;; Example:
  ;; 1. Setup page "Changelog" as home page and "Contents" in sidebar
-:default-home {:page "Contents" :sidebar ["Contents" "CKAD" "時間管理" "每日推進" "Publish Logseq public pages"]}
+:default-home {:page "Contents"}
  ;; 2. Setup page "Jun 3rd, 2021" as home page without sidebar
  ;; :default-home {:page "Jun 3rd, 2021"}
  ;; 3. Setup page "home" as home page with multiple pages in sidebar
@@ -208,7 +208,7 @@
 
  :ref/linked-references-collapsed-threshold 50
 
- :favorites []
+ :favorites ["Contents" "CKAD" "時間管理" "每日推進" "Publish Logseq public pages"]
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5

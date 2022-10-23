@@ -26,12 +26,45 @@
  {:block/name "\"時間管理",
   :block/created-at 1666407910157,
   :block/updated-at 1666407910157}
+ {:block/name "+begin_private",
+  :block/created-at 1666530981171,
+  :block/updated-at 1666530981171}
+ {:block/name "+end_private",
+  :block/created-at 1666530981180,
+  :block/updated-at 1666530981180}
+ {:block/name "0d87cbaf-0e4a-4cde-8a74-d2e1b549caa1",
+  :block/created-at 1666530980150,
+  :block/updated-at 1666530980150}
+ {:block/name "63062c7c-7881-47f1-b544-902cd773c1b7",
+  :block/created-at 1666530980822,
+  :block/updated-at 1666530980822}
+ {:block/name "631c5fa2-1bf3-4d1b-bd30-d554b1289296",
+  :block/created-at 1666530981351,
+  :block/updated-at 1666530981351}
+ {:block/name "632dba7a-5cf9-4129-9260-8563ce82cb54",
+  :block/created-at 1666530980548,
+  :block/updated-at 1666530980548}
+ {:block/name "63322d9e-ec57-426d-918c-f28abef626f8",
+  :block/created-at 1666530980581,
+  :block/updated-at 1666530980581}
+ {:block/name "68d22818-cc61-4107-9a2a-7cddd0c5bdfd",
+  :block/created-at 1666530980823,
+  :block/updated-at 1666530980823}
  {:block/name "@esor",
   :block/created-at 1666407910137,
   :block/updated-at 1666407910137}
+ {:block/name "@jason",
+  :block/created-at 1666530981177,
+  :block/updated-at 1666530981177}
  {:block/name "@me",
   :block/created-at 1666407910115,
   :block/updated-at 1666407910115}
+ {:block/name "@nancy",
+  :block/created-at 1666530981177,
+  :block/updated-at 1666530981177}
+ {:block/name "[nis-住民異動] 佔床｜床位圖優化",
+  :block/created-at 1666530981358,
+  :block/updated-at 1666530981358}
  {:block/name "a",
   :block/created-at 1666408252198,
   :block/updated-at 1666408252198}
@@ -53,9 +86,18 @@
  {:block/name "aug 23rd, 2022",
   :block/created-at 1666407910070,
   :block/updated-at 1666407910070}
+ {:block/name "aug 24th, 2022",
+  :block/created-at 1666530980817,
+  :block/updated-at 1666530980817}
  {:block/name "aug 27th, 2022",
   :block/created-at 1666515502844,
   :block/updated-at 1666515502844}
+ {:block/name "aug 28th, 2022",
+  :block/created-at 1666530980441,
+  :block/updated-at 1666530980441}
+ {:block/name "aug 30th, 2022",
+  :block/created-at 1666530980702,
+  :block/updated-at 1666530980702}
  {:block/name "aug 7th, 2022",
   :block/created-at 1666407910073,
   :block/updated-at 1666407910073}
@@ -102,95 +144,101 @@
   :block/created-at 1666407910094,
   :block/updated-at 1666407910094}
  {:block/name "ckad/add response headers in apache",
-  :block/created-at 1666485057093,
-  :block/updated-at 1666485057093}
+  :block/created-at 1666531094326,
+  :block/updated-at 1666531094326}
+ {:block/name "ckad/apache redirects",
+  :block/created-at 1666531094217,
+  :block/updated-at 1666531094217}
  {:block/name "ckad/application security",
-  :block/created-at 1666485057089,
-  :block/updated-at 1666485057089}
+  :block/created-at 1666531094350,
+  :block/updated-at 1666531094350}
  {:block/name "ckad/configure local yum repos",
-  :block/created-at 1666485057092,
-  :block/updated-at 1666485057092}
+  :block/created-at 1666531095739,
+  :block/updated-at 1666531095739}
  {:block/name "ckad/create a cron job",
-  :block/created-at 1666485057083,
-  :block/updated-at 1666485057083}
+  :block/created-at 1666531094669,
+  :block/updated-at 1666531094669}
  {:block/name "ckad/create a linux user with non-interactive shell",
-  :block/created-at 1666515597739,
-  :block/updated-at 1666515597739}
+  :block/created-at 1666531094188,
+  :block/updated-at 1666531094188}
  {:block/name "ckad/disable root login",
-  :block/created-at 1666485057080,
-  :block/updated-at 1666485057080}
+  :block/created-at 1666531094736,
+  :block/updated-at 1666531094736}
  {:block/name "ckad/dns troubleshooting",
-  :block/created-at 1666485057077,
-  :block/updated-at 1666485057077}
+  :block/created-at 1666531094440,
+  :block/updated-at 1666531094440}
  {:block/name "ckad/linux banner-motd",
-  :block/created-at 1666485057074,
-  :block/updated-at 1666485057074}
+  :block/created-at 1666531094051,
+  :block/updated-at 1666531094051}
  {:block/name "ckad/linux bash scripts",
-  :block/created-at 1666485057094,
-  :block/updated-at 1666485057094}
+  :block/created-at 1666531094545,
+  :block/updated-at 1666531094545}
  {:block/name "ckad/linux collaborative directories",
-  :block/created-at 1666485057078,
-  :block/updated-at 1666485057078}
+  :block/created-at 1666531094593,
+  :block/updated-at 1666531094593}
  {:block/name "ckad/linux file permissions",
-  :block/created-at 1666515597725,
-  :block/updated-at 1666515597725}
+  :block/created-at 1666531095483,
+  :block/updated-at 1666531095483}
  {:block/name "ckad/linux find command",
-  :block/created-at 1666485057090,
-  :block/updated-at 1666485057090}
+  :block/created-at 1666531094261,
+  :block/updated-at 1666531094261}
  {:block/name "ckad/linux logrotate",
-  :block/created-at 1666485057091,
-  :block/updated-at 1666485057091}
+  :block/created-at 1666531094017,
+  :block/updated-at 1666531094017}
  {:block/name "ckad/linux ntp setup",
-  :block/created-at 1666485057082,
-  :block/updated-at 1666485057082}
+  :block/created-at 1666531094412,
+  :block/updated-at 1666531094412}
  {:block/name "ckad/linux postfix troubleshooting",
-  :block/created-at 1666485057085,
-  :block/updated-at 1666485057085}
+  :block/created-at 1666531095769,
+  :block/updated-at 1666531095769}
  {:block/name "ckad/linux remote copy",
-  :block/created-at 1666515598640,
-  :block/updated-at 1666515598640}
+  :block/created-at 1666531094077,
+  :block/updated-at 1666531094077}
  {:block/name "ckad/linux run levels",
-  :block/created-at 1666485057076,
-  :block/updated-at 1666485057076}
+  :block/created-at 1666531094157,
+  :block/updated-at 1666531094157}
  {:block/name "ckad/linux services",
-  :block/created-at 1666485057071,
-  :block/updated-at 1666485057071}
+  :block/created-at 1666531095389,
+  :block/updated-at 1666531095389}
  {:block/name "ckad/linux ssh authentication",
-  :block/created-at 1666485057075,
-  :block/updated-at 1666485057075}
+  :block/created-at 1666531094624,
+  :block/updated-at 1666531094624}
  {:block/name "ckad/linux string substitute",
-  :block/created-at 1666485057079,
-  :block/updated-at 1666485057079}
+  :block/created-at 1666531094567,
+  :block/updated-at 1666531094567}
  {:block/name "ckad/linux string substitute (sed)",
-  :block/created-at 1666485057088,
-  :block/updated-at 1666485057088}
+  :block/created-at 1666531094694,
+  :block/updated-at 1666531094694}
  {:block/name "ckad/linux timezones setting",
-  :block/created-at 1666515597755,
-  :block/updated-at 1666515597755}
+  :block/created-at 1666531094715,
+  :block/updated-at 1666531094715}
  {:block/name "ckad/linux user expiry",
-  :block/created-at 1666485057072,
-  :block/updated-at 1666485057072}
+  :block/created-at 1666531094186,
+  :block/updated-at 1666531094186}
  {:block/name "ckad/linux user files",
-  :block/created-at 1666515597694,
-  :block/updated-at 1666515597694}
+  :block/created-at 1666531095451,
+  :block/updated-at 1666531095451}
  {:block/name "ckad/linux user without home",
-  :block/created-at 1666485057073,
-  :block/updated-at 1666485057073}
+  :block/created-at 1666531094464,
+  :block/updated-at 1666531094464}
  {:block/name "ckad/mariadb troubleshooting",
-  :block/created-at 1666485057070,
-  :block/updated-at 1666485057070}
+  :block/created-at 1666531094131,
+  :block/updated-at 1666531094131}
  {:block/name "ckad/selinux installation",
-  :block/created-at 1666485057084,
-  :block/updated-at 1666485057084}
+  :block/created-at 1666531095368,
+  :block/updated-at 1666531095368}
  {:block/name "ckad/setup ssl for nginx",
-  :block/created-at 1666485057095,
-  :block/updated-at 1666485057095}
+  :block/created-at 1666531095424,
+  :block/updated-at 1666531095424}
  {:block/name "contents",
   :block/created-at 1666408252198,
-  :block/updated-at 1666515877542}
+  :block/updated-at 1666531161177}
  {:block/name "couple-time",
   :block/created-at 1666407910132,
   :block/updated-at 1666407910132}
+ {:block/name "course",
+  :block/created-at 1666530981625,
+  :block/updated-at 1666530981625}
  {:block/name "daily-routine",
   :block/created-at 1666407910129,
   :block/updated-at 1666407910129}
@@ -215,12 +263,21 @@
  {:block/name "google大神",
   :block/created-at 1666407910080,
   :block/updated-at 1666407910080}
+ {:block/name "growing object-oriented software, guided by tests",
+  :block/created-at 1666530981356,
+  :block/updated-at 1666530981356}
  {:block/name "gtd",
   :block/created-at 1666407909808,
   :block/updated-at 1666407909808}
+ {:block/name "habit-tracker",
+  :block/created-at 1666530981179,
+  :block/updated-at 1666530981179}
+ {:block/name "hide private content",
+  :block/created-at 1666531094068,
+  :block/updated-at 1666531094068}
  {:block/name "how i use zettelkasten method in logseq",
-  :block/created-at 1666515597817,
-  :block/updated-at 1666515597817}
+  :block/created-at 1666531094293,
+  :block/updated-at 1666531094293}
  {:block/name "hub notes",
   :block/created-at 1666407909812,
   :block/updated-at 1666407909812}
@@ -239,12 +296,27 @@
  {:block/name "jul 23rd, 2022",
   :block/created-at 1666407910154,
   :block/updated-at 1666407910154}
+ {:block/name "jul 27th, 2023",
+  :block/created-at 1666530981178,
+  :block/updated-at 1666530981178}
+ {:block/name "jul 28th, 2022",
+  :block/created-at 1666530981178,
+  :block/updated-at 1666530981178}
+ {:block/name "jul 29th, 2022",
+  :block/created-at 1666530981179,
+  :block/updated-at 1666530981179}
+ {:block/name "jul 30th, 2022",
+  :block/created-at 1666530981180,
+  :block/updated-at 1666530981180}
  {:block/name "later",
   :block/created-at 1666408252198,
   :block/updated-at 1666408252198}
  {:block/name "link",
   :block/created-at 1666407910074,
   :block/updated-at 1666407910074}
+ {:block/name "linux",
+  :block/created-at 1666530981024,
+  :block/updated-at 1666530981024}
  {:block/name "literature",
   :block/created-at 1666407909809,
   :block/updated-at 1666407909809}
@@ -260,15 +332,30 @@
  {:block/name "now",
   :block/created-at 1666408252198,
   :block/updated-at 1666408252198}
+ {:block/name "oct 1st, 2022",
+  :block/created-at 1666530981167,
+  :block/updated-at 1666530981167}
+ {:block/name "oct 21st, 2022",
+  :block/created-at 1666530980964,
+  :block/updated-at 1666530980964}
  {:block/name "oct 22nd, 2022",
   :block/created-at 1666407909755,
   :block/updated-at 1666407909755}
  {:block/name "oct 23rd, 2022",
   :block/created-at 1666454434390,
   :block/updated-at 1666454434390}
+ {:block/name "oct 3rd, 2022",
+  :block/created-at 1666530980146,
+  :block/updated-at 1666530980146}
  {:block/name "oct 4th, 2022",
   :block/created-at 1666407910097,
   :block/updated-at 1666407910097}
+ {:block/name "oct 7th, 2022",
+  :block/created-at 1666530980470,
+  :block/updated-at 1666530980470}
+ {:block/name "outside-in frontend development",
+  :block/created-at 1666531095595,
+  :block/updated-at 1666531095595}
  {:block/name "pdf",
   :block/created-at 1666407910075,
   :block/updated-at 1666407910075}
@@ -281,6 +368,9 @@
  {:block/name "permanents notes",
   :block/created-at 1666407909811,
   :block/updated-at 1666407909811}
+ {:block/name "personal",
+  :block/created-at 1666530981174,
+  :block/updated-at 1666530981174}
  {:block/name "price",
   :block/created-at 1666407910074,
   :block/updated-at 1666407910074}
@@ -290,6 +380,9 @@
  {:block/name "publish logseq automatically",
   :block/created-at 1666515597784,
   :block/updated-at 1666515597784}
+ {:block/name "publish logseq public pages",
+  :block/created-at 1666531094496,
+  :block/updated-at 1666531094496}
  {:block/name "rate",
   :block/created-at 1666407910156,
   :block/updated-at 1666407910156}
@@ -299,18 +392,72 @@
  {:block/name "related::",
   :block/created-at 1666442847862,
   :block/updated-at 1666442847862}
+ {:block/name "repo",
+  :block/created-at 1666530981369,
+  :block/updated-at 1666530981369}
  {:block/name "resources",
   :block/created-at 1666407910101,
   :block/updated-at 1666407910101}
  {:block/name "rewrote",
   :block/created-at 1666407910101,
   :block/updated-at 1666407910101}
+ {:block/name "sep 10th, 2022",
+  :block/created-at 1666530980608,
+  :block/updated-at 1666530980608}
+ {:block/name "sep 11th, 2022",
+  :block/created-at 1666530980332,
+  :block/updated-at 1666530980332}
+ {:block/name "sep 13th, 2022",
+  :block/created-at 1666530980921,
+  :block/updated-at 1666530980921}
+ {:block/name "sep 15th, 2022",
+  :block/created-at 1666530980648,
+  :block/updated-at 1666530980648}
+ {:block/name "sep 16th, 2022",
+  :block/created-at 1666530981622,
+  :block/updated-at 1666530981622}
  {:block/name "sep 17th, 2022",
   :block/created-at 1666407910073,
   :block/updated-at 1666407910073}
+ {:block/name "sep 18th, 2022",
+  :block/created-at 1666530980745,
+  :block/updated-at 1666530980745}
+ {:block/name "sep 19th, 2022",
+  :block/created-at 1666530980244,
+  :block/updated-at 1666530980244}
+ {:block/name "sep 1st, 2022",
+  :block/created-at 1666530980675,
+  :block/updated-at 1666530980675}
  {:block/name "sep 23rd, 2022",
   :block/created-at 1666407910095,
   :block/updated-at 1666407910095}
+ {:block/name "sep 25th, 2022",
+  :block/created-at 1666530981168,
+  :block/updated-at 1666530981168}
+ {:block/name "sep 27th, 2022",
+  :block/created-at 1666530980576,
+  :block/updated-at 1666530980576}
+ {:block/name "sep 29th, 2022",
+  :block/created-at 1666530980288,
+  :block/updated-at 1666530980288}
+ {:block/name "sep 2nd, 2022",
+  :block/created-at 1666530981363,
+  :block/updated-at 1666530981363}
+ {:block/name "sep 3rd, 2022",
+  :block/created-at 1666530980380,
+  :block/updated-at 1666530980380}
+ {:block/name "sep 4th, 2022",
+  :block/created-at 1666530981171,
+  :block/updated-at 1666530981171}
+ {:block/name "sep 5th, 2022",
+  :block/created-at 1666530980516,
+  :block/updated-at 1666530980516}
+ {:block/name "sep 7th, 2022",
+  :block/created-at 1666530980787,
+  :block/updated-at 1666530980787}
+ {:block/name "sep 8th, 2022",
+  :block/created-at 1666530980412,
+  :block/updated-at 1666530980412}
  {:block/name "slide",
   :block/created-at 1666407910075,
   :block/updated-at 1666407910075}
@@ -326,6 +473,9 @@
  {:block/name "task-notes",
   :block/created-at 1666407910141,
   :block/updated-at 1666407910141}
+ {:block/name "the art of unit testing with example in javascript",
+  :block/created-at 1666530981357,
+  :block/updated-at 1666530981357}
  {:block/name "todo",
   :block/created-at 1666408252198,
   :block/updated-at 1666408252198}
@@ -347,9 +497,21 @@
  {:block/name "wanna/➡️  擁有好身材",
   :block/created-at 1666407910090,
   :block/updated-at 1666407910090}
+ {:block/name "wanna/成為資深工程師",
+  :block/created-at 1666530981611,
+  :block/updated-at 1666530981611}
+ {:block/name "wanna/擁有好身材",
+  :block/created-at 1666530981183,
+  :block/updated-at 1666530981183}
+ {:block/name "wanna/流利說英文",
+  :block/created-at 1666530981613,
+  :block/updated-at 1666530981613}
  {:block/name "wont",
   :block/created-at 1666407910095,
   :block/updated-at 1666407910095}
+ {:block/name "xunit test patterns",
+  :block/created-at 1666530981356,
+  :block/updated-at 1666530981356}
  {:block/name "之後再說",
   :block/created-at 1666407910082,
   :block/updated-at 1666407910082}
@@ -362,9 +524,15 @@
  {:block/name "兩人時間",
   :block/created-at 1666407910127,
   :block/updated-at 1666407910127}
+ {:block/name "努力唸書運動",
+  :block/created-at 1666530981177,
+  :block/updated-at 1666530981177}
  {:block/name "哪次不做",
   :block/created-at 1666407910080,
   :block/updated-at 1666407910080}
+ {:block/name "地震來了怎麼辦",
+  :block/created-at 1666530981528,
+  :block/updated-at 1666530981528}
  {:block/name "定期追蹤",
   :block/created-at 1666407910076,
   :block/updated-at 1666407910076}
@@ -383,15 +551,18 @@
  {:block/name "時間管理",
   :block/created-at 1666446687868,
   :block/updated-at 1666446687868}
+ {:block/name "時間管理/時間管理的30道難題",
+  :block/created-at 1666530981627,
+  :block/updated-at 1666530981627}
  {:block/name "時間管理/防彈筆記法",
-  :block/created-at 1666446687867,
-  :block/updated-at 1666446687867}
+  :block/created-at 1666531095063,
+  :block/updated-at 1666531095063}
  {:block/name "晚上回家後，可以有更多時間可以學習",
   :block/created-at 1666407910124,
   :block/updated-at 1666407910124}
  {:block/name "每日推進",
-  :block/created-at 1666407910126,
-  :block/updated-at 1666407910126}
+  :block/created-at 1666531094608,
+  :block/updated-at 1666531094608}
  {:block/name "熟悉 nis 專案",
   :block/created-at 1666407910112,
   :block/updated-at 1666407910112}
