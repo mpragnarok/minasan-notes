@@ -61,9 +61,44 @@ related::
 			  SOURCE_VAULT = /Users/minahuang/Documents/vaults
 			  TARGET_VAULT = /Users/minahuang/Documents/logseq-public
 			  ```
-		- ```
-		  make publish
-		  ```
+		- `make publish`
+			- ```bash
+			   ~/Documents/vaults | on main !1 --------------------------------- took 10s | base py | at 16:49:21 
+			  > make publish
+			  sh logseq-publish.sh && cd /Users/minahuang/Documents/logseq-public && sh sync.sh
+			  rm -rf /Users/minahuang/Documents/logseq-public/logseq/bak/pages/*
+			  rm -rf /Users/minahuang/Documents/logseq-public/assets/*
+			  rm -rf /Users/minahuang/Documents/logseq-public/pages/*
+			  logseq-export \
+			                  --graphPath /Users/minahuang/Documents/vaults/pages \
+			                  --blogFolder /Users/minahuang/Documents/logseq-public/pages \
+			                  --unquotedProperties date,name,public,tags \
+			                  --assetsRelativePath ../assets \
+			                  --webAssetsPathPrefix ../assets
+			  rm -rf /Users/minahuang/Documents/logseq-public/pages/*
+			  LC_ALL=C find /Users/minahuang/Documents/logseq-public/pages -type f | xargs -I@ sed -i '' '/^- #+BEGIN_PRIVATE/,/^- #+END_PRIVATE/d' @
+			  /Users/minahuang/Documents/logseq-public
+			  [main f17fb29]  M "pages/Publish Logseq automatically.md"
+			   1 file changed, 55 insertions(+), 102 deletions(-)
+			  remote: Enumerating objects: 382, done.
+			  remote: Counting objects: 100% (382/382), done.
+			  remote: Compressing objects: 100% (286/286), done.
+			  remote: Total 382 (delta 95), reused 373 (delta 95), pack-reused 0
+			  Receiving objects: 100% (382/382), 35.94 MiB | 6.30 MiB/s, done.
+			  Resolving deltas: 100% (95/95), done.
+			  From https://github.com/mpragnarok/minasan-notes
+			   + 0e66fcc...70acc2f gh-pages   -> origin/gh-pages  (forced update)
+			  Current branch main is up to date.
+			  Enumerating objects: 7, done.
+			  Counting objects: 100% (7/7), done.
+			  Delta compression using up to 10 threads
+			  Compressing objects: 100% (4/4), done.
+			  Writing objects: 100% (4/4), 1.74 KiB | 1.74 MiB/s, done.
+			  Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+			  remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+			  To https://github.com/mpragnarok/minasan-notes.git
+			     7a240d9..f17fb29  main -> main
+			  ```
 	- ### Reference
 		- [My public Logseq notes](https://github.com/mpragnarok/minasan-notes)
 		  id:: 6354f645-311f-4ccd-89dd-0f0b779d88c5
