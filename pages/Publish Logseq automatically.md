@@ -13,6 +13,7 @@ related::
 - ## Automate publish your local graph on the GitHub page with ((6354a051-5b5e-4a33-906f-e1cfb63221fa)) and command lines in OSX
   background-color:: green
 	- ### Prerequisites
+	  collapsed:: true
 		- Create a new Logseq graph name `logseq-public` for publishing which locate next to your original Logseq graph
 			- ```
 			  .
@@ -52,10 +53,12 @@ related::
 	- ### Get GitHub workflow with `make get-workflow` for publish and deploy
 	- ### [logseq-export](https://github.com/viktomas/logseq-export): For exporting assets
 	  id:: 6354a051-5b5e-4a33-906f-e1cfb63221fa
+	  collapsed:: true
 		- Install: `make install-logseq-export`
 		- The reason that I'm not using this package to export all public pages
 			- ### The markdown files that I tried to export with `logseq-export` will result in the title of the page has additional double quotes`""`.
 	- ### Publish Logseq graph with one line command
+	  collapsed:: true
 		- Run `pwd` to get the `SOURCE_VAULT` and `TARGET_VAULT` paths and fill in `Makefile` variables
 			- ```
 			  SOURCE_VAULT = /Users/minahuang/Documents/vaults
@@ -99,6 +102,15 @@ related::
 			  To https://github.com/mpragnarok/minasan-notes.git
 			     7a240d9..f17fb29  main -> main
 			  ```
+	- ### Config Github pages
+	  collapsed:: true
+		- ![Github pages setting](../assets/image_1666515228400_0.png)
+		- `Settings > Github Pages > Build and deployment`
+			- Source: Deploy from a branch
+			- Branch: `gh-pages` `/ root`
+		- Checkout ((6355016a-8236-44d4-80c7-08224a4194b6))
 	- ### Reference
-		- [My public Logseq notes](https://github.com/mpragnarok/minasan-notes)
+		- [My public Logseq notes](https://mpragnarok.github.io/minasan-notes/)
+		  id:: 6355016a-8236-44d4-80c7-08224a4194b6
+		- [My public Logseq notes repository](https://github.com/mpragnarok/minasan-notes)
 		  id:: 6354f645-311f-4ccd-89dd-0f0b779d88c5
