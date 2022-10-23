@@ -11,7 +11,7 @@ public:: true
 	-
 - ## ❓ Why am I doing this?
 	- > Logseq is hard to share the pages with one click, and I'm too lazy to copy-paste all the public notes to the graph and do the publish process all the time. 
-	  Therefore, I spent an afternoon setting all this up 🥰
+	  Therefore, I spent a day setting all this up 🥰
 - ## Publish your local graph into the GitHub page with ((6354a051-5b5e-4a33-906f-e1cfb63221fa)) and command lines in OSX
 	- ### Prerequisites
 	  collapsed:: true
