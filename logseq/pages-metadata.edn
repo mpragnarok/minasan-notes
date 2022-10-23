@@ -26,9 +26,6 @@
  {:block/name "\"時間管理",
   :block/created-at 1666407910157,
   :block/updated-at 1666407910157}
- {:block/name "\"時間管理/防彈筆記法\"",
-  :block/created-at 1666411244486,
-  :block/updated-at 1666411244486}
  {:block/name "@esor",
   :block/created-at 1666407910137,
   :block/updated-at 1666407910137}
@@ -47,12 +44,18 @@
  {:block/name "atomic",
   :block/created-at 1666407909810,
   :block/updated-at 1666407909810}
+ {:block/name "aug 13th, 2022",
+  :block/created-at 1666515502842,
+  :block/updated-at 1666515502842}
  {:block/name "aug 22nd, 2022",
   :block/created-at 1666407910073,
   :block/updated-at 1666407910073}
  {:block/name "aug 23rd, 2022",
   :block/created-at 1666407910070,
   :block/updated-at 1666407910070}
+ {:block/name "aug 27th, 2022",
+  :block/created-at 1666515502844,
+  :block/updated-at 1666515502844}
  {:block/name "aug 7th, 2022",
   :block/created-at 1666407910073,
   :block/updated-at 1666407910073}
@@ -111,8 +114,8 @@
   :block/created-at 1666485057083,
   :block/updated-at 1666485057083}
  {:block/name "ckad/create a linux user with non-interactive shell",
-  :block/created-at 1666485057066,
-  :block/updated-at 1666485057066}
+  :block/created-at 1666515597739,
+  :block/updated-at 1666515597739}
  {:block/name "ckad/disable root login",
   :block/created-at 1666485057080,
   :block/updated-at 1666485057080}
@@ -129,8 +132,8 @@
   :block/created-at 1666485057078,
   :block/updated-at 1666485057078}
  {:block/name "ckad/linux file permissions",
-  :block/created-at 1666485057062,
-  :block/updated-at 1666485057062}
+  :block/created-at 1666515597725,
+  :block/updated-at 1666515597725}
  {:block/name "ckad/linux find command",
   :block/created-at 1666485057090,
   :block/updated-at 1666485057090}
@@ -144,8 +147,8 @@
   :block/created-at 1666485057085,
   :block/updated-at 1666485057085}
  {:block/name "ckad/linux remote copy",
-  :block/created-at 1666485057069,
-  :block/updated-at 1666485057069}
+  :block/created-at 1666515598640,
+  :block/updated-at 1666515598640}
  {:block/name "ckad/linux run levels",
   :block/created-at 1666485057076,
   :block/updated-at 1666485057076}
@@ -162,14 +165,14 @@
   :block/created-at 1666485057088,
   :block/updated-at 1666485057088}
  {:block/name "ckad/linux timezones setting",
-  :block/created-at 1666485057065,
-  :block/updated-at 1666485057065}
+  :block/created-at 1666515597755,
+  :block/updated-at 1666515597755}
  {:block/name "ckad/linux user expiry",
   :block/created-at 1666485057072,
   :block/updated-at 1666485057072}
  {:block/name "ckad/linux user files",
-  :block/created-at 1666485057068,
-  :block/updated-at 1666485057068}
+  :block/created-at 1666515597694,
+  :block/updated-at 1666515597694}
  {:block/name "ckad/linux user without home",
   :block/created-at 1666485057073,
   :block/updated-at 1666485057073}
@@ -184,7 +187,7 @@
   :block/updated-at 1666485057095}
  {:block/name "contents",
   :block/created-at 1666408252198,
-  :block/updated-at 1666408252198}
+  :block/updated-at 1666515877542}
  {:block/name "couple-time",
   :block/created-at 1666407910132,
   :block/updated-at 1666407910132}
@@ -216,8 +219,8 @@
   :block/created-at 1666407909808,
   :block/updated-at 1666407909808}
  {:block/name "how i use zettelkasten method in logseq",
-  :block/created-at 1666446687580,
-  :block/updated-at 1666446687580}
+  :block/created-at 1666515597817,
+  :block/updated-at 1666515597817}
  {:block/name "hub notes",
   :block/created-at 1666407909812,
   :block/updated-at 1666407909812}
@@ -285,8 +288,8 @@
   :block/created-at 1666407910114,
   :block/updated-at 1666407910114}
  {:block/name "publish logseq automatically",
-  :block/created-at 1666446687653,
-  :block/updated-at 1666446687653}
+  :block/created-at 1666515597784,
+  :block/updated-at 1666515597784}
  {:block/name "rate",
   :block/created-at 1666407910156,
   :block/updated-at 1666407910156}
