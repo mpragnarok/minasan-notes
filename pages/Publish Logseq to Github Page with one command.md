@@ -51,7 +51,7 @@ public:: true
 		- `sync.sh`
 			- auto-commit the files
 	- ### Get GitHub workflow config with `make get-workflow` for publishing and deploy
-	- ### [[Hide private content]]: Remove the content which wrapped with `#+BEGIN_PRIVATE` and `#+END_PRIVATE`
+	- ### [[Remove private content]] in you public note: During the publishing process, it'll remove the content wrapped with `#+BEGIN_PRIVATE` and `#+END_PRIVATE`
 	- ### [logseq-export](https://github.com/viktomas/logseq-export)
 	  id:: 6354a051-5b5e-4a33-906f-e1cfb63221fa
 		- For exporting assets
