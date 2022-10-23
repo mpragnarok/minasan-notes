@@ -33,7 +33,6 @@ public:: true
 			  Am3ric@
 			  ```
 		- check user
-		  id:: 63058ffd-03eb-406c-a753-d8f58528240a
 			- ```bash
 			  id james
 			  ```

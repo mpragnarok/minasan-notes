@@ -10,7 +10,7 @@ related::
 	-
 - ## ❓ Why am I doing this?
 	- > Logseq is hard to share the pages, and I'm too lazy to copy-paste all the public notes to the graph all the time. Therefore, I spent an afternoon setting all this up 🥰
-- ## Automate publish your local graph on the GitHub page with ((6354a051-5b5e-4a33-906f-e1cfb63221fa)) and command lines in OSX
+- ## Publish your local graph into the GitHub page with ((6354a051-5b5e-4a33-906f-e1cfb63221fa)) and command lines in OSX
   background-color:: green
 	- ### Prerequisites
 	  collapsed:: true
@@ -50,7 +50,8 @@ related::
 				- Remove all the contents which wrap with `- #+BEGIN_PRIVATE` and `-  #+END_PRIVATE`
 		- `sync.sh`
 			- auto-commit the files
-	- ### Get GitHub workflow with `make get-workflow` for publish and deploy
+	- ### Get GitHub workflow config with `make get-workflow` for publish and deploy
+	- ### [[Hide private content]]: Remove the content which wrapped with `#+BEGIN_PRIVATE` and `#+END_PRIVATE`
 	- ### [logseq-export](https://github.com/viktomas/logseq-export): For exporting assets
 	  id:: 6354a051-5b5e-4a33-906f-e1cfb63221fa
 	  collapsed:: true
@@ -102,7 +103,7 @@ related::
 			  To https://github.com/mpragnarok/minasan-notes.git
 			     7a240d9..f17fb29  main -> main
 			  ```
-	- ### Config Github pages
+	- ### Configure Github pages
 	  collapsed:: true
 		- ![Github pages setting](../assets/image_1666515228400_0.png)
 		- `Settings > Github Pages > Build and deployment`
