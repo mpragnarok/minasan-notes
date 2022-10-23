@@ -8,10 +8,10 @@ hackmd:: https://hackmd.io/@minasan/prom-instrument-app
 
 - ## 了解指標的意義在哪？可以用在哪？
 	- ### Online service - RED method (Request, Errors, Duration)
-		- > ((629cb50a-a921-485e-93a3-99bb6d43cb0a))
+		- > Having request rate, latency, and error rate metrics is sometimes called the RED method, for Requests,  Errors,  and  Duration.  These  metrics  are  not  just  useful  to  you  from  the server side, but also the client side. If you notice that the client is seeing more latency than the server, you might have network issues or an overloaded client.
 		- 不只可以用在 server side, 也可以用在 client side
 		- 若 client 的延遲比 server 多，你或許遇到了網路問題或是客戶端過載
-			- [查了一下](https://blog.carlosnunez.me/post/how-to-sre-ify-your-react-app-with-prometheus/)，前端也要instrument的話，需起 express server，本次要介紹的是 server side 的監控
+			- [查了一下](https://blog.carlosnunez.me/post/how-to-sre-ify-your-react-app-with-prometheus/)，前端也要instrument的話，需起 express server，本次要介紹的是 server-side 的監控
 	- ### Offline service - USE method (Utilisation, Saturation and Errors)
 		- 離線服務，通常是批次處理工作，並且在 pipeline 有多個階段，如日誌處理系統（log processing system）。
 			- Utilisation: 使用率，代表服務有多滿
@@ -29,7 +29,7 @@ hackmd:: https://hackmd.io/@minasan/prom-instrument-app
 			- 花多少時間執行
 			- 每個階段花多少時間消耗工作
 			- 上個工作最後成功的時間
-	- TODO keep reading ((629eb175-b7fb-4fb8-a24b-f382b0726b1d)) #work #here
+	-
 - ## Instrumentation
   id:: 62923338-41a2-4b56-8ac1-b422fec24841
 	- [小專案](https://github.com/mpragnarok/observability-start-up/tree/main/node-prom-metric)
@@ -114,6 +114,8 @@ hackmd:: https://hackmd.io/@minasan/prom-instrument-app
 		- Instrumentation
 			- 偷懶的做法-裝 [express prometheus bundle](https://www.npmjs.com/package/express-prom-bundle) 直接幫你包好做完
 			- 自己寫: [prom-client](https://www.npmjs.com/package/prom-client) + [response-time](https://www.npmjs.com/package/response-time)
+	- #+BEGIN_PRIVATE
 	- ### 結論
 		- 484 覺得很麻煩？不需要自己寫基本的 RED method instrumentation! 👉👉👉**安裝並使用 [ms-go-kit](https://gitlab.smart-aging.tech/devops/ms-go-kit) & [ms-node-kit](https://gitlab.smart-aging.tech/devops/ms-js-kit) 就對了！**
+	- #+END_PRIVATE
 		-
