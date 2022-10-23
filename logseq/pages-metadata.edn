@@ -144,92 +144,92 @@
   :block/created-at 1666407910094,
   :block/updated-at 1666407910094}
  {:block/name "ckad/add response headers in apache",
-  :block/created-at 1666531094326,
-  :block/updated-at 1666531094326}
+  :block/created-at 1666531946442,
+  :block/updated-at 1666531946442}
  {:block/name "ckad/apache redirects",
-  :block/created-at 1666531094217,
-  :block/updated-at 1666531094217}
+  :block/created-at 1666531946618,
+  :block/updated-at 1666531946618}
  {:block/name "ckad/application security",
-  :block/created-at 1666531094350,
-  :block/updated-at 1666531094350}
+  :block/created-at 1666531946685,
+  :block/updated-at 1666531946685}
  {:block/name "ckad/configure local yum repos",
-  :block/created-at 1666531095739,
-  :block/updated-at 1666531095739}
+  :block/created-at 1666531947055,
+  :block/updated-at 1666531947055}
  {:block/name "ckad/create a cron job",
-  :block/created-at 1666531094669,
-  :block/updated-at 1666531094669}
+  :block/created-at 1666531946799,
+  :block/updated-at 1666531946799}
  {:block/name "ckad/create a linux user with non-interactive shell",
-  :block/created-at 1666531094188,
-  :block/updated-at 1666531094188}
+  :block/created-at 1666531946405,
+  :block/updated-at 1666531946405}
  {:block/name "ckad/disable root login",
-  :block/created-at 1666531094736,
-  :block/updated-at 1666531094736}
+  :block/created-at 1666531946779,
+  :block/updated-at 1666531946779}
  {:block/name "ckad/dns troubleshooting",
-  :block/created-at 1666531094440,
-  :block/updated-at 1666531094440}
+  :block/created-at 1666531796458,
+  :block/updated-at 1666531796458}
  {:block/name "ckad/linux banner-motd",
-  :block/created-at 1666531094051,
-  :block/updated-at 1666531094051}
+  :block/created-at 1666531946352,
+  :block/updated-at 1666531946352}
  {:block/name "ckad/linux bash scripts",
-  :block/created-at 1666531094545,
-  :block/updated-at 1666531094545}
+  :block/created-at 1666531946376,
+  :block/updated-at 1666531946376}
  {:block/name "ckad/linux collaborative directories",
-  :block/created-at 1666531094593,
-  :block/updated-at 1666531094593}
+  :block/created-at 1666531946976,
+  :block/updated-at 1666531946976}
  {:block/name "ckad/linux file permissions",
-  :block/created-at 1666531095483,
-  :block/updated-at 1666531095483}
+  :block/created-at 1666531946888,
+  :block/updated-at 1666531946888}
  {:block/name "ckad/linux find command",
-  :block/created-at 1666531094261,
-  :block/updated-at 1666531094261}
+  :block/created-at 1666531946540,
+  :block/updated-at 1666531946540}
  {:block/name "ckad/linux logrotate",
-  :block/created-at 1666531094017,
-  :block/updated-at 1666531094017}
+  :block/created-at 1666531946299,
+  :block/updated-at 1666531946299}
  {:block/name "ckad/linux ntp setup",
-  :block/created-at 1666531094412,
-  :block/updated-at 1666531094412}
+  :block/created-at 1666531947022,
+  :block/updated-at 1666531947022}
  {:block/name "ckad/linux postfix troubleshooting",
-  :block/created-at 1666531095769,
-  :block/updated-at 1666531095769}
+  :block/created-at 1666531946666,
+  :block/updated-at 1666531946666}
  {:block/name "ckad/linux remote copy",
-  :block/created-at 1666531094077,
-  :block/updated-at 1666531094077}
+  :block/created-at 1666531946522,
+  :block/updated-at 1666531946522}
  {:block/name "ckad/linux run levels",
-  :block/created-at 1666531094157,
-  :block/updated-at 1666531094157}
+  :block/created-at 1666531946643,
+  :block/updated-at 1666531946643}
  {:block/name "ckad/linux services",
-  :block/created-at 1666531095389,
-  :block/updated-at 1666531095389}
+  :block/created-at 1666531946763,
+  :block/updated-at 1666531946763}
  {:block/name "ckad/linux ssh authentication",
-  :block/created-at 1666531094624,
-  :block/updated-at 1666531094624}
+  :block/created-at 1666531946953,
+  :block/updated-at 1666531946953}
  {:block/name "ckad/linux string substitute",
-  :block/created-at 1666531094567,
-  :block/updated-at 1666531094567}
+  :block/created-at 1666531946928,
+  :block/updated-at 1666531946928}
  {:block/name "ckad/linux string substitute (sed)",
-  :block/created-at 1666531094694,
-  :block/updated-at 1666531094694}
+  :block/created-at 1666531946707,
+  :block/updated-at 1666531946707}
  {:block/name "ckad/linux timezones setting",
-  :block/created-at 1666531094715,
-  :block/updated-at 1666531094715}
+  :block/created-at 1666531946747,
+  :block/updated-at 1666531946747}
  {:block/name "ckad/linux user expiry",
-  :block/created-at 1666531094186,
-  :block/updated-at 1666531094186}
+  :block/created-at 1666531946403,
+  :block/updated-at 1666531946403}
  {:block/name "ckad/linux user files",
-  :block/created-at 1666531095451,
-  :block/updated-at 1666531095451}
+  :block/created-at 1666531946814,
+  :block/updated-at 1666531946814}
  {:block/name "ckad/linux user without home",
-  :block/created-at 1666531094464,
-  :block/updated-at 1666531094464}
+  :block/created-at 1666531946905,
+  :block/updated-at 1666531946905}
  {:block/name "ckad/mariadb troubleshooting",
-  :block/created-at 1666531094131,
-  :block/updated-at 1666531094131}
+  :block/created-at 1666531946487,
+  :block/updated-at 1666531946487}
  {:block/name "ckad/selinux installation",
-  :block/created-at 1666531095368,
-  :block/updated-at 1666531095368}
+  :block/created-at 1666531946573,
+  :block/updated-at 1666531946573}
  {:block/name "ckad/setup ssl for nginx",
-  :block/created-at 1666531095424,
-  :block/updated-at 1666531095424}
+  :block/created-at 1666531946848,
+  :block/updated-at 1666531946848}
  {:block/name "contents",
   :block/created-at 1666408252198,
   :block/updated-at 1666531161177}
@@ -273,11 +273,11 @@
   :block/created-at 1666530981179,
   :block/updated-at 1666530981179}
  {:block/name "hide private content",
-  :block/created-at 1666531094068,
-  :block/updated-at 1666531094068}
+  :block/created-at 1666531796580,
+  :block/updated-at 1666531796580}
  {:block/name "how i use zettelkasten method in logseq",
-  :block/created-at 1666531094293,
-  :block/updated-at 1666531094293}
+  :block/created-at 1666531796401,
+  :block/updated-at 1666531796401}
  {:block/name "hub notes",
   :block/created-at 1666407909812,
   :block/updated-at 1666407909812}
@@ -354,8 +354,8 @@
   :block/created-at 1666530980470,
   :block/updated-at 1666530980470}
  {:block/name "outside-in frontend development",
-  :block/created-at 1666531095595,
-  :block/updated-at 1666531095595}
+  :block/created-at 1666531797181,
+  :block/updated-at 1666531797181}
  {:block/name "pdf",
   :block/created-at 1666407910075,
   :block/updated-at 1666407910075}
@@ -377,12 +377,9 @@
  {:block/name "project-note",
   :block/created-at 1666407910114,
   :block/updated-at 1666407910114}
- {:block/name "publish logseq automatically",
-  :block/created-at 1666515597784,
-  :block/updated-at 1666515597784}
  {:block/name "publish logseq public pages",
-  :block/created-at 1666531094496,
-  :block/updated-at 1666531094496}
+  :block/created-at 1666531796680,
+  :block/updated-at 1666531796680}
  {:block/name "rate",
   :block/created-at 1666407910156,
   :block/updated-at 1666407910156}
@@ -531,8 +528,8 @@
   :block/created-at 1666407910080,
   :block/updated-at 1666407910080}
  {:block/name "地震來了怎麼辦",
-  :block/created-at 1666530981528,
-  :block/updated-at 1666530981528}
+  :block/created-at 1666531796195,
+  :block/updated-at 1666531796195}
  {:block/name "定期追蹤",
   :block/created-at 1666407910076,
   :block/updated-at 1666407910076}
@@ -552,17 +549,17 @@
   :block/created-at 1666446687868,
   :block/updated-at 1666446687868}
  {:block/name "時間管理/時間管理的30道難題",
-  :block/created-at 1666530981627,
-  :block/updated-at 1666530981627}
+  :block/created-at 1666531796857,
+  :block/updated-at 1666531796857}
  {:block/name "時間管理/防彈筆記法",
-  :block/created-at 1666531095063,
-  :block/updated-at 1666531095063}
+  :block/created-at 1666531796860,
+  :block/updated-at 1666531796860}
  {:block/name "晚上回家後，可以有更多時間可以學習",
   :block/created-at 1666407910124,
   :block/updated-at 1666407910124}
  {:block/name "每日推進",
-  :block/created-at 1666531094608,
-  :block/updated-at 1666531094608}
+  :block/created-at 1666531796192,
+  :block/updated-at 1666531796192}
  {:block/name "熟悉 nis 專案",
   :block/created-at 1666407910112,
   :block/updated-at 1666407910112}
