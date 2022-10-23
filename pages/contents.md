@@ -12,6 +12,7 @@ public:: true
   collapsed:: true
 	- {{query [[每日推進]]}}
 - ## Public notes
+  collapsed:: true
 	- {{query (property public true)}}
 	  query-table:: false
 - ## Tool I made
