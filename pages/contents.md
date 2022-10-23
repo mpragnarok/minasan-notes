@@ -16,7 +16,7 @@ public:: true
 	- {{query (property public true)}}
 	  query-table:: false
 - ## Tool I made
-	- [[Publish Logseq to Github Page with one command]]
+	- [[Publish Logseq to GitHub Page with one command]]
 -
 - ## Links
 	- [Linkedin](https://www.linkedin.com/in/minhanhuang/)

@@ -1,6 +1,6 @@
 date:: [[Oct 22nd, 2022]]
 type:: #task-note
-title:: Publish Logseq to Github Page with one command
+title:: Publish Logseq to GitHub Page with one command
 tags::
 related::
 public:: true
