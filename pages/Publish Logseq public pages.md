@@ -1,6 +1,7 @@
 date:: [[Oct 22nd, 2022]]
 type:: #task-note
 name:: Publish Logseq automatically
+title:: Publish Logseq public pages
 tags::
 related::
 
@@ -52,9 +53,9 @@ related::
 			- auto-commit the files
 	- ### Get GitHub workflow config with `make get-workflow` for publish and deploy
 	- ### [[Hide private content]]: Remove the content which wrapped with `#+BEGIN_PRIVATE` and `#+END_PRIVATE`
-	- ### [logseq-export](https://github.com/viktomas/logseq-export): For exporting assets
+	- ### [logseq-export](https://github.com/viktomas/logseq-export)
 	  id:: 6354a051-5b5e-4a33-906f-e1cfb63221fa
-	  collapsed:: true
+		- For exporting assets
 		- Install: `make install-logseq-export`
 		- The reason that I'm not using this package to export all public pages
 			- ### The markdown files that I tried to export with `logseq-export` will result in the title of the page has additional double quotes`""`.

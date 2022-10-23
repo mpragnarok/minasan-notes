@@ -14,7 +14,7 @@ public:: true
 	- {{query (property public true)}}
 	  query-table:: false
 - ## Tools I made
-	- [[Publish Logseq automatically]]
+	- [[Publish Logseq public pages]]
 -
 -
 -
