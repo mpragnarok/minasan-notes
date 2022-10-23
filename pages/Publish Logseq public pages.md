@@ -4,6 +4,7 @@ name:: Publish Logseq automatically
 title:: Publish Logseq public pages
 tags::
 related::
+public:: true
 
 - ## TODOs
   collapsed:: true
