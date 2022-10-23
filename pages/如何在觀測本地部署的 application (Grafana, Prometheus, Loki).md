@@ -291,7 +291,7 @@ name:: 如何在觀測本地部署的 application (Grafana, Prometheus, loki)
 				  
 				  ```
 			- 使用 `histogram_quantile()` 函式去計算分位數（[quantiles](https://prometheus.io/docs/practices/histograms/#quantiles)）或聚合直方圖
-				- 計算過去 10 分鐘內請求時間的第 90 個百分位（[[percentile]]）：`histogram_quantile(0.9, rate(http_request_duration_seconds_bucket[10m]))`
+				- 計算過去 10 分鐘內請求時間的第 90 個百分位（[percentile](((d30a2198-257a-4b35-9f68-c95fc8705b0d)))）：`histogram_quantile(0.9, rate(http_request_duration_seconds_bucket[10m]))`
 				- ![一般直方圖與聚合直方圖](https://i.imgur.com/kuoscWv.png)
 				- [NIS 儀表板有計算 r99 的 histogram 範例](https://release-grafana-nis.jubo.health/explore?left=%5B%22now-1h%22,%22now%22,%22Prometheus%22,%7B%22expr%22:%22histogram_quantile(%5Cn%20%200.99,%20%5Cn%20%20sum(%5Cn%20%20%20%20rate(http_request_duration_seconds_bucket%7Bapp%3D%5C%22nis%5C%22,%20route%3D~%5C%22%2Fapi%2F.*%5C%22%7D%5B5m%5D)%5Cn%20%20)%20by%20(le,%20route)%5Cn)%22,%22interval%22:%22%22,%22exemplar%22:false,%22datasource%22:%22Prometheus%22%7D%5D&orgId=1)
 					- ```PromQL
