@@ -21,75 +21,77 @@ related::
 				- `All pages public when publishing` should be open in `logseq-public` graph
 				- ![Logseq settings](../assets/Screen_Shot_2022-10-23_at_2.31.55_PM_1666506923711_0.png)
 			- [Create GitHub repository](https://docs.github.com/en/get-started/quickstart/create-a-repo) for `logseq-public` graph
-			-
-			- Create `Makefile` with content below into your original Logseq graph directory
+			- Makefile: All the commands we need
+			  collapsed:: true
 				- ```
 				  .
 				  ├── logseq-public # new Logseq graph for publishing
 				  └── vaults # Create make file here
 				  ```
-				- ```Makefile
-				  #
-				  # autor: mpragnarok
-				  # 
-				  #
-				  
-				  .EXPORT_ALL_VARIABLES:
-				  #
-				  # var for Makefile to run database or some shared resources
-				  #
-				  SOURCE_VAULT = 
-				  TARGET_VAULT = 
-				  
-				  
-				  install-logseq-export:
-				  	go install github.com/viktomas/logseq-export@latest
-				  
-				  clean-bak:
-				  	rm -rf ${TARGET_VAULT}/logseq/bak/pages/*
-				  clean-assets:
-				  	rm -rf ${TARGET_VAULT}/assets/*
-				  
-				  clean-pages:
-				  	rm -rf ${TARGET_VAULT}/pages/*
-				  
-				  clean-all: clean-bak clean-assets clean-pages
-				  
-				  logseq-export-assets:
-				  	logseq-export \
-				  		--graphPath ${SOURCE_VAULT}/pages \
-				  		--blogFolder ${TARGET_VAULT}/pages \
-				  		--unquotedProperties date,name,public,tags \
-				  		--assetsRelativePath ../assets \
-				  		--webAssetsPathPrefix ../assets
-				  
-				  setup-and-export-assets: install-logseq-export logseq-export-assets
-				  
-				  sleep-%:
-				  	sleep $(@:sleep-%=%)
-				  
-				  define grep-public
-				  grep -lir 'public:: true' ./pages
-				  endef
-				  
-				  # `tar` avoid to use full path of directory
-				  grep-public-markdown: 
-				  	@$(grep-public) | tar -T - -c | tar -xpC ../logseq-public
-				  	
-				  	
-				  clean-and-generate-assest: clean-all logseq-export-assets 
-				  clean-and-grep-public: clean-pages grep-public-markdown
-				  
-				  # -i '' works with BSD and GNU sed
-				  # [the solution of `sed` recursively in OSX version](https://www.cyberciti.biz/faq/unix-linux-replace-string-words-in-many-files/#comment-68305)
-				  find-and-remove-private-content:
-				  	LC_ALL=C find ${TARGET_VAULT}/pages -type f | xargs -I@ sed -i '' '/^- #+BEGIN_PRIVATE/,/^- #+END_PRIVATE/d' @
-				  
-				  publish:
-				  	sh logseq-publish.sh && cd ${TARGET_VAULT} && sh sync.sh
-				  
-				  
-				  ```
+				- Create `Makefile` with content below into your original Logseq graph directory
+					- ```Makefile
+					  #
+					  # autor: mpragnarok
+					  # 
+					  #
+					  
+					  .EXPORT_ALL_VARIABLES:
+					  #
+					  # var for Makefile to run database or some shared resources
+					  #
+					  SOURCE_VAULT = 
+					  TARGET_VAULT = 
+					  
+					  
+					  install-logseq-export:
+					  	go install github.com/viktomas/logseq-export@latest
+					  
+					  clean-bak:
+					  	rm -rf ${TARGET_VAULT}/logseq/bak/pages/*
+					  clean-assets:
+					  	rm -rf ${TARGET_VAULT}/assets/*
+					  
+					  clean-pages:
+					  	rm -rf ${TARGET_VAULT}/pages/*
+					  
+					  clean-all: clean-bak clean-assets clean-pages
+					  
+					  logseq-export-assets:
+					  	logseq-export \
+					  		--graphPath ${SOURCE_VAULT}/pages \
+					  		--blogFolder ${TARGET_VAULT}/pages \
+					  		--unquotedProperties date,name,public,tags \
+					  		--assetsRelativePath ../assets \
+					  		--webAssetsPathPrefix ../assets
+					  
+					  setup-and-export-assets: install-logseq-export logseq-export-assets
+					  
+					  sleep-%:
+					  	sleep $(@:sleep-%=%)
+					  
+					  define grep-public
+					  grep -lir 'public:: true' ./pages
+					  endef
+					  
+					  # `tar` avoid to use full path of directory
+					  grep-public-markdown: 
+					  	@$(grep-public) | tar -T - -c | tar -xpC ../logseq-public
+					  	
+					  	
+					  clean-and-generate-assest: clean-all logseq-export-assets 
+					  clean-and-grep-public: clean-pages grep-public-markdown
+					  
+					  # -i '' works with BSD and GNU sed
+					  # [the solution of `sed` recursively in OSX version](https://www.cyberciti.biz/faq/unix-linux-replace-string-words-in-many-files/#comment-68305)
+					  find-and-remove-private-content:
+					  	LC_ALL=C find ${TARGET_VAULT}/pages -type f | xargs -I@ sed -i '' '/^- #+BEGIN_PRIVATE/,/^- #+END_PRIVATE/d' @
+					  
+					  .PHONY: publish
+					  publish:
+					  	sh logseq-publish.sh && cd ${TARGET_VAULT} && sh sync.sh
+					  
+					  
+					  ```
 		- [logseq-export](https://github.com/viktomas/logseq-export): For exporting assets
 		  id:: 6354a051-5b5e-4a33-906f-e1cfb63221fa
 			- Install: `make`
