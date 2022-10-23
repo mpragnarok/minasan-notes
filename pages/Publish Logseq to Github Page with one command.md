@@ -1,18 +1,18 @@
 date:: [[Oct 22nd, 2022]]
 type:: #task-note
-title:: Publish Logseq public pages
+title:: Publish Logseq to Github Page with one command
 tags::
 related::
 public:: true
 
 - ## TODOs
   collapsed:: true
-	- {{query (and (todo todo doing later) (page [[publish logseq automatically]]))}}
+	- {{query (and (todo todo doing later) (page [[Publish Logseq to Github Page with one command]]))}}
 	-
 - ## ❓ Why am I doing this?
-	- > Logseq is hard to share the pages, and I'm too lazy to copy-paste all the public notes to the graph all the time. Therefore, I spent an afternoon setting all this up 🥰
+	- > Logseq is hard to share the pages with one click, and I'm too lazy to copy-paste all the public notes to the graph and do the publish process all the time. 
+	  Therefore, I spent an afternoon setting all this up 🥰
 - ## Publish your local graph into the GitHub page with ((6354a051-5b5e-4a33-906f-e1cfb63221fa)) and command lines in OSX
-  background-color:: green
 	- ### Prerequisites
 	  collapsed:: true
 		- Create a new Logseq graph name `logseq-public` for publishing which locate next to your original Logseq graph

@@ -144,86 +144,86 @@
   :block/created-at 1666407910094,
   :block/updated-at 1666407910094}
  {:block/name "ckad/add response headers in apache",
-  :block/created-at 1666531946442,
-  :block/updated-at 1666531946442}
+  :block/created-at 1666532272169,
+  :block/updated-at 1666532272169}
  {:block/name "ckad/apache redirects",
-  :block/created-at 1666531946618,
-  :block/updated-at 1666531946618}
+  :block/created-at 1666532272439,
+  :block/updated-at 1666532272439}
  {:block/name "ckad/application security",
-  :block/created-at 1666531946685,
-  :block/updated-at 1666531946685}
+  :block/created-at 1666532272360,
+  :block/updated-at 1666532272360}
  {:block/name "ckad/configure local yum repos",
-  :block/created-at 1666531947055,
-  :block/updated-at 1666531947055}
+  :block/created-at 1666532272468,
+  :block/updated-at 1666532272468}
  {:block/name "ckad/create a cron job",
-  :block/created-at 1666531946799,
-  :block/updated-at 1666531946799}
+  :block/created-at 1666532272748,
+  :block/updated-at 1666532272748}
  {:block/name "ckad/create a linux user with non-interactive shell",
-  :block/created-at 1666531946405,
-  :block/updated-at 1666531946405}
+  :block/created-at 1666532272227,
+  :block/updated-at 1666532272227}
  {:block/name "ckad/disable root login",
-  :block/created-at 1666531946779,
-  :block/updated-at 1666531946779}
+  :block/created-at 1666532272562,
+  :block/updated-at 1666532272562}
  {:block/name "ckad/dns troubleshooting",
-  :block/created-at 1666531796458,
-  :block/updated-at 1666531796458}
+  :block/created-at 1666532272385,
+  :block/updated-at 1666532272385}
  {:block/name "ckad/linux banner-motd",
-  :block/created-at 1666531946352,
-  :block/updated-at 1666531946352}
+  :block/created-at 1666532272065,
+  :block/updated-at 1666532272065}
  {:block/name "ckad/linux bash scripts",
-  :block/created-at 1666531946376,
-  :block/updated-at 1666531946376}
+  :block/created-at 1666532272319,
+  :block/updated-at 1666532272319}
  {:block/name "ckad/linux collaborative directories",
-  :block/created-at 1666531946976,
-  :block/updated-at 1666531946976}
+  :block/created-at 1666532272715,
+  :block/updated-at 1666532272715}
  {:block/name "ckad/linux file permissions",
-  :block/created-at 1666531946888,
-  :block/updated-at 1666531946888}
+  :block/created-at 1666532272733,
+  :block/updated-at 1666532272733}
  {:block/name "ckad/linux find command",
-  :block/created-at 1666531946540,
-  :block/updated-at 1666531946540}
+  :block/created-at 1666532272197,
+  :block/updated-at 1666532272197}
  {:block/name "ckad/linux logrotate",
-  :block/created-at 1666531946299,
-  :block/updated-at 1666531946299}
+  :block/created-at 1666532272098,
+  :block/updated-at 1666532272098}
  {:block/name "ckad/linux ntp setup",
-  :block/created-at 1666531947022,
-  :block/updated-at 1666531947022}
+  :block/created-at 1666532272296,
+  :block/updated-at 1666532272296}
  {:block/name "ckad/linux postfix troubleshooting",
-  :block/created-at 1666531946666,
-  :block/updated-at 1666531946666}
+  :block/created-at 1666532272527,
+  :block/updated-at 1666532272527}
  {:block/name "ckad/linux remote copy",
-  :block/created-at 1666531946522,
-  :block/updated-at 1666531946522}
+  :block/created-at 1666532272424,
+  :block/updated-at 1666532272424}
  {:block/name "ckad/linux run levels",
-  :block/created-at 1666531946643,
-  :block/updated-at 1666531946643}
+  :block/created-at 1666532272504,
+  :block/updated-at 1666532272504}
  {:block/name "ckad/linux services",
-  :block/created-at 1666531946763,
-  :block/updated-at 1666531946763}
+  :block/created-at 1666532272582,
+  :block/updated-at 1666532272582}
  {:block/name "ckad/linux ssh authentication",
-  :block/created-at 1666531946953,
-  :block/updated-at 1666531946953}
+  :block/created-at 1666532272627,
+  :block/updated-at 1666532272627}
  {:block/name "ckad/linux string substitute",
-  :block/created-at 1666531946928,
-  :block/updated-at 1666531946928}
+  :block/created-at 1666532272650,
+  :block/updated-at 1666532272650}
  {:block/name "ckad/linux string substitute (sed)",
-  :block/created-at 1666531946707,
-  :block/updated-at 1666531946707}
+  :block/created-at 1666532272603,
+  :block/updated-at 1666532272603}
  {:block/name "ckad/linux timezones setting",
   :block/created-at 1666531946747,
   :block/updated-at 1666531946747}
  {:block/name "ckad/linux user expiry",
-  :block/created-at 1666531946403,
-  :block/updated-at 1666531946403}
+  :block/created-at 1666532272225,
+  :block/updated-at 1666532272225}
  {:block/name "ckad/linux user files",
-  :block/created-at 1666531946814,
-  :block/updated-at 1666531946814}
+  :block/created-at 1666532272685,
+  :block/updated-at 1666532272685}
  {:block/name "ckad/linux user without home",
-  :block/created-at 1666531946905,
-  :block/updated-at 1666531946905}
+  :block/created-at 1666532272341,
+  :block/updated-at 1666532272341}
  {:block/name "ckad/mariadb troubleshooting",
-  :block/created-at 1666531946487,
-  :block/updated-at 1666531946487}
+  :block/created-at 1666532272126,
+  :block/updated-at 1666532272126}
  {:block/name "ckad/selinux installation",
   :block/created-at 1666531946573,
   :block/updated-at 1666531946573}
