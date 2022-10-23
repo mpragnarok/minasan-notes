@@ -1,6 +1,5 @@
 date:: [[Oct 22nd, 2022]]
 type:: #task-note
-name:: Publish Logseq automatically
 title:: Publish Logseq public pages
 tags::
 related::
