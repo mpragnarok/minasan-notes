@@ -1,6 +1,5 @@
 public:: true
 
-- ![mina-avatar.png](../assets/mina-avatar_1666531205672_0.png)
 - Hi, I'm **Mina Huang** who is a passionate 👩‍💻 Full-Stack developer with 3 years of working experience.
 - ---
 - ## Daily Practices
