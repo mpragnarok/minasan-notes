@@ -1,6 +1,5 @@
 public:: true
 
-- ![minasan avatar](https://i.imgur.com/dDgnxn1.jpg)
 - Hi, I'm **Mina Huang** who is a passionate 👩‍💻 Full-Stack developer with 3 years of working experience.
 - ---
 - ## Daily Practices
