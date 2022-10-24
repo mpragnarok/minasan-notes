@@ -1,12 +1,14 @@
 public:: true
 
-- DOING Implement to match the tags with indentation
-  :LOGBOOK:
-  CLOCK: [2022-10-24 Mon 09:58:52]
-  :END:
-	- TODO Remove the hyphen indentation when matches the pattern
-	- DONE Delete the content in between `- #+BEGIN_PRIVATE` and `- #+END_PRIVATE`
-	-
+- #+BEGIN_IMPORTANT
+  The function only match the tags without indentation
+  #+END_IMPORTANT
+	- DOING Implement to match the tags with indentation
+	  :LOGBOOK:
+	  CLOCK: [2022-10-24 Mon 09:58:52]
+	  :END:
+		- TODO Remove the hyphen indentation when matches the pattern
+		- DONE Delete the content in between `- #+BEGIN_PRIVATE` and `- #+END_PRIVATE`
 - Remove the single block
 	- ```md
 	  - #+BEGIN_PRIVATE
