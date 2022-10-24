@@ -1,7 +1,7 @@
 public:: true
 
 - #+BEGIN_IMPORTANT
-  The function only match the tags without indentation
+  The function only matches the tags without indentation
   #+END_IMPORTANT
 	- DOING Implement to match the tags with indentation
 	  :LOGBOOK:
