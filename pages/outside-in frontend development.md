@@ -460,7 +460,7 @@ public:: true
 	  CLOCK: [2022-09-27 Tue 22:02:44]
 	  :END:
 	-
-	- ### TODO 思考 [[[NIS-住民異動] 佔床｜床位圖優化]] 加上測試
+	- ### TODO 思考 [[Jubo/[NIS-住民異動] 佔床｜床位圖優化]] 加上測試
 	  background-color:: #497d46
 	  id:: 63121920-f7b2-4c3c-918e-36f9fcb38ada
 	  :LOGBOOK:

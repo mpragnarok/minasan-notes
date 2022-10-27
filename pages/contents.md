@@ -2,6 +2,7 @@ public:: true
 
 - Hi, I'm **Mina Huang** who is a passionate 👩‍💻 Full-Stack developer with 3 years of working experience.
 - ---
+- [[draws/2022-10-27-22-40-58.excalidraw]]
 - ## Daily Practices
 	- [[CKAD]]: Practice Linux-related skills, aim for getting a CKAD certification
 	  :LOGBOOK:
