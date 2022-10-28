@@ -593,7 +593,7 @@ name:: 如何在觀測本地部署的 application (Grafana, Prometheus, loki)
 		      uid: local-pager
 		      org_id: 1
 		      secure_settings:
-		        url: https://hooks.slack.com/services/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
+		        url: {SLACK_WEB_HOOK_URL}
 		  
 		  delete_notifiers:
 		    - name: local-pager
