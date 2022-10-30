@@ -601,6 +601,7 @@ name:: 如何在觀測本地部署的 application (Grafana, Prometheus, loki)
 		      org_id: 1
 		  
 		  ```
+			-
 - ## Loki #WIP 太...太多了
   collapsed:: true
 	- Grafana Loki 是一個  Log 聚合工具且為功能俱全的日誌堆棧（logging stack）
