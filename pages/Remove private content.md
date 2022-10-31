@@ -8,6 +8,11 @@ public:: true
 	  CLOCK: [2022-10-24 Mon 09:58:52]
 	  :END:
 		- TODO Remove the hyphen indentation when matches the pattern
+			- ```makefile
+			  
+			  sed-space:
+			  	sed 's/^[ \t]*//' input.md > output.md
+			  ```
 			- [Match Tag with indentation](regexr.com/70okj)
 		- DONE Delete the content in between `- #+BEGIN_PRIVATE` and `- #+END_PRIVATE`
 - Remove the single block
