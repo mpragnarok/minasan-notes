@@ -58,6 +58,11 @@ public:: true
 		- Install: `make install-logseq-export`
 		- The reason that I'm not using this package to export all public pages
 			- ### The markdown files that I tried to export with `logseq-export` will result in the title of the page having additional double quotes`""`.
+		- `zsh: command not found: logseq-export`
+			- ```bash
+			  (base) ➜  valuts git:(main) logseq-export
+			  zsh: command not found: logseq-export
+			  ```
 	- ### Publish Logseq graph with one line command
 		- Run `pwd` to get the `SOURCE_VAULT` and `TARGET_VAULT` paths and fill in `Makefile` variables
 			- ```
