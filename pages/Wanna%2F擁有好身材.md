@@ -132,7 +132,6 @@ public:: true
 	- ### 一週三次有氧，三次健身，至少 30 分鐘
 	  background-color:: pink
 		- #### 調整運動+生活作息做有氧
-		  id:: 631deafc-a9c7-4fd7-9e67-d85653aad96d
 		  :LOGBOOK:
 		  CLOCK: [2022-09-12 Mon 20:53:23]--[2022-09-13 Tue 20:47:03] =>  23:53:40
 		  :END:
@@ -200,7 +199,6 @@ public:: true
 	  background-color:: red
 	  collapsed:: true
 		- DONE 一週最少三次健身各一個半小時
-		  id:: ab11820c-00ed-47e0-80bc-ba0c31796588
 			- 固定日期：二、四、日
 			- #### 規劃健身房訓練
 				- 上半身
@@ -214,7 +212,6 @@ public:: true
 				- 全身
 				- 教練課
 				- DONE 🚴‍♀️ 在家有氧
-				  id:: 631f26f4-5b2b-4fa7-b92b-49c1bb1f8b27
 				  :LOGBOOK:
 				  CLOCK: [2022-09-13 Tue 06:24:14]--[2022-09-13 Tue 08:50:13] =>  02:25:59
 				  :END:
@@ -282,3 +279,4 @@ public:: true
 					  國內運費超取尺寸60，超過依黑貓宅配實際運費報價
 					  ```加上運費
 			- 先用家裡現有的盜版，然後等之後去上 TRX 課程後，再來買上面二擇一
+-
