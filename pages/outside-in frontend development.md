@@ -1,7 +1,7 @@
 date:: [[Sep 2nd, 2022]]
 type:: #task-note
 name:: outside-in frontend development
-tags:: 每日推進, 哪次不做
+tags:: 定期追蹤
 pdf:: ![outside-in-react-development.pdf](../assets/outside-in-react-development_1662718036004_0.pdf)
 repo:: https://github.com/CodingItWrong/opinion-ate-react
 icon:: 👩‍💻
@@ -12,6 +12,15 @@ public:: true
 	- {{query (and (todo todo doing later) (page [[outside-in frontend development]]))}}
 	-
 - ## 下一步行動
+	- 簡短介紹 outside-in frontend development
+		- 我之前跟著 [outside-in frontend development](https://outsidein.dev/react/refactoring-styles)   練習的[專案](https://github.com/mpragnarok/learning/tree/main/apps/opinion-ate)，該專案使用的 [dependencies有這些](https://github.com/mpragnarok/learning/blob/main/apps/opinion-ate/package.json)不知道他的 [Testing流程](https://outsidein.dev/concepts/outside-in-tdd) 對我們有沒有幫助？
+			- 先從 E2E test 開始寫
+			- 開始寫單元測試，並讓測試通過，直到 E2E test 可以通過
+			- 回到步驟1
+		- E2E testing: Test the steps of user behavior
+		- Unit testing: component layer, data layer testing
+		- 另外他有提到不要去測 styles (edited)
+		  id:: 63b517bd-dd0a-4326-a61a-d14e4a12eea6
 	- ###  Finished Tutorial
 	  id:: 6312190d-31d0-4932-9f5c-f1a825d69106
 	  background-color:: #264c9b
@@ -217,7 +226,6 @@ public:: true
 			- Test in detail with unit level but forego and E2E tests
 				- Loading Indicator
 					- Component Layer
-					  collapsed:: true
 						- use [ARIA role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles) to check the test case
 							- path: `apps/opinion-ate/src/components/RestaurantList.spec.js`
 							- ```js
@@ -230,7 +238,6 @@ public:: true
 							- cause the conditional is not tested
 							- ![Screen Shot 2022-09-10 at 4.32.39 PM.png](../assets/Screen_Shot_2022-09-10_at_4.32.39_PM_1662798778077_0.png)
 					- Data Layer - loading flag
-					  collapsed:: true
 						- test asynchrony
 							- Return promise in Jest `beforeEach` block if we want Jest to resolve
 								- {{embed ((631c5fa2-1bf3-4d1b-bd30-d554b1289296))}}
@@ -347,7 +354,6 @@ public:: true
 			-
 		- ### DONE Asynchrony React testing library
 		  id:: 631df479-b270-4ab7-a2af-521888a54e27
-		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2022-09-12 Mon 20:53:07]--[2022-09-27 Tue 21:59:01] =>  361:05:54
 		  :END:
@@ -402,7 +408,6 @@ public:: true
 				- Further reading
 					- Recommend:  [secrets of the act(...) api](https://github.com/threepointone/react-act-examples/blob/master/sync.md#secrets-of-the-act-api)
 						- more details about `act()`
-						  collapsed:: true
 							- hooks
 							- events
 							- timers
@@ -418,7 +423,6 @@ public:: true
 						- what causes that state change
 					- If the state change is visible in UI, use the following method
 						- 👉 use `screen.findBy*()`, allow you wait for a matching element to appear on the screen
-						  collapsed:: true
 							- ```js
 							  describe('when the store action rejects', () => {
 							      async function fillInForm() {
@@ -429,7 +433,6 @@ public:: true
 							    	// ...
 							  ```
 						- 👉 `waitFor()`
-						  collapsed:: true
 							- ((6323b26b-e1d6-49a4-82a4-f881905cd81c))
 					- If the state change isn't visible in UI
 						- finding a way to make it visible will make your code more testable

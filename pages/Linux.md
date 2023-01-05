@@ -13,6 +13,11 @@ tags::
 	  background-color:: pink
 	  id:: 0d87cbaf-0e4a-4cde-8a74-d2e1b549caa1
 		- Basic
+			- file systems
+				- count files
+					- ```bash
+					  $ ls | wc -l
+					  ```
 			- Check the command history
 				- ```bash
 				  $ history

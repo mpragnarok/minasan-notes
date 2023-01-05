@@ -7,16 +7,6 @@ title:: Observability第二趴-Metric-v3
   date:: [[May 28th, 2022]]
   name:: Observability第二趴-Metric_v2
   hackmd:: https://hackmd.io/@minasan/HJoX_Jbdc
-  #+BEGIN_PRIVATE
-- 前半部概念性講一下為什麼需要，及我們目前採納的 tack stack 長怎樣 (architecture view)
-  loki arch
-  prom arch
-  jaeger arch
-- 後半部針對 metrics，demo 實際上要在程式碼裡動什麼手腳 (instrumenting)
-  針對 process level 的 metrics 我們怎麼做 (埋梗動手造輪會怎麼做、或直接講使用 prom-client 包好直接 call)
-  針對 application level 我們可能關心的是什麼、怎麼量測 (demo 一個簡單地 HTTP request time 怎量)
-  收尾可收在大部分的基本需求已經被實作在 ms-go-kit & ms-node-kit 裡，但我們未來仍然等針對特殊的業務需求去客製化 metrics
-- #+END_PRIVATE
 - ## 可觀測性 Observability {{renderer :wordcount_bvsifik}}
 	- ![3 pillars of Observability](https://i.imgur.com/Zlmx7Bu.png)
 		- [3 pillars of Observability](https://www.oreilly.com/library/view/distributed-systems-observability/9781492033431/ch04.html#:~:text=Logs%2C%20metrics%2C%20and%20traces%20are,ability%20to%20build%20better%20systems.)

@@ -114,8 +114,3 @@ hackmd:: https://hackmd.io/@minasan/prom-instrument-app
 		- Instrumentation
 			- 偷懶的做法-裝 [express prometheus bundle](https://www.npmjs.com/package/express-prom-bundle) 直接幫你包好做完
 			- 自己寫: [prom-client](https://www.npmjs.com/package/prom-client) + [response-time](https://www.npmjs.com/package/response-time)
-	- #+BEGIN_PRIVATE
-	- ### 結論
-		- 484 覺得很麻煩？不需要自己寫基本的 RED method instrumentation! 👉👉👉**安裝並使用 [ms-go-kit](https://gitlab.smart-aging.tech/devops/ms-go-kit) & [ms-node-kit](https://gitlab.smart-aging.tech/devops/ms-js-kit) 就對了！**
-	- #+END_PRIVATE
-		-
